@@ -1,0 +1,26 @@
+.about {
+  padding: 92px 0;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__content {
+  width: 605px;
+}
+
+.about__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #499a18;
+  margin-bottom: 40px;
+}
+
+.houseplant {
+  width: 464px;
+  height: 479px;
+}

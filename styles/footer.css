@@ -1,0 +1,35 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__content_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.footer__list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer__links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__image {
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,39 @@
+.welcome {
+  padding: 62px 0;
+  box-sizing: content-box;
+  background-color: #edf2ec;
+}
+
+.welcome__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__leafs {
+  width: 448px;
+  height: 407px;
+}
+
+.welcome__content {
+  width: 549px;
+}
+
+.welcome__title {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 42px;
+  color: #717171;
+}
+
+.welcome__button {
+  padding: 14px 27px;
+  border-radius: 10px;
+  border: #e06733 solid 2px;
+  background-color: inherit;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
