@@ -25,6 +25,7 @@ a {
   height: 100%;
   width: 85%;
   margin: 0 auto;
+  max-width: 1920px;
 }
 
 .green-text {
@@ -41,7 +42,6 @@ a {
   font-size: 20px;
   line-height: 35px;
   color: #636060;
-  margin-bottom: 48px;
 }
 
 .orange-button {
@@ -56,6 +56,24 @@ a {
 }
 
 .arrow {
+  display: flex;
   width: 16px;
   height: 16px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #aea1a1;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .description {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }

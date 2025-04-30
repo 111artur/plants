@@ -23,17 +23,32 @@
         </div>
         <nav class="header_menu">
           <ul class="header_list">
-            <li><a class="element-menu" href="#">Home</a></li>
-            <li><a class="element-menu" href="#">About us</a></li>
-            <li><a class="element-menu" href="#">Service</a></li>
-            <li><a class="element-menu" href="#">Price</a></li>
-            <li><a class="element-menu" href="#">Contacts</a></li>
+            <li><a class="element-menu" href="#welcome">Home</a></li>
+            <li><a class="element-menu" href="#about">About us</a></li>
+            <li><a class="element-menu" href="#service">Service</a></li>
+            <li><a class="element-menu" href="#price">Price</a></li>
+            <li><a class="element-menu" href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <div class="burger-line burger-first-line"></div>
+          <div class="burger-line burger-second-line"></div>
+          <div class="burger-line burger-third-line"></div>
+          <div class="burger-line burger-fourth-line"></div>
+        </div>
+        <nav class="header_burger-menu">
+          <ul class="header_list">
+            <li><a class="element-menu" href="#welcome">Home</a></li>
+            <li><a class="element-menu" href="#about">About us</a></li>
+            <li><a class="element-menu" href="#service">Service</a></li>
+            <li><a class="element-menu" href="#price">Price</a></li>
+            <li><a class="element-menu" href="#contact">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="welcome">
+      <section id="welcome" class="welcome">
         <div class="container welcome__container">
           <img
             class="welcome__leafs"
@@ -44,7 +59,7 @@
             <h1 class="welcome__title">
               We grow <span class="green-text">plants</span> and give you oxygen
             </h1>
-            <p class="description">
+            <p class="description welcome__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
@@ -53,7 +68,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div class="container about__container">
           <div class="about__content">
             <h2 class="about__title">
@@ -77,7 +92,7 @@
           />
         </div>
       </section>
-      <section class="service">
+      <section id="service" class="service">
         <div class="container service__container">
           <div class="service__header">
             <h2 class="service__title">
@@ -125,8 +140,6 @@
                   Lorem Ipsum has been the industry
                 </p>
               </div>
-            </div>
-            <div class="service__cards">
               <div class="service__card">
                 <img
                   class="service__card_image"
@@ -164,22 +177,67 @@
           </div>
         </div>
       </section>
-      <section class="prices">
+      <section id="price" class="prices">
         <div class="container prices__container">
           <div class="prices__select">
             <h2 class="prices__title prices__select_title">Prices</h2>
             <div class="prices__types">
               <div class="prices__type">
-                <h3 class="prices__type_title">Basics</h3>
-                <img class="arrow" src="assets/images/arrow.svg" alt="arrow" />
+                <div class="prices__type_close">
+                  <h3 class="prices__type_title">Basics</h3>
+                  <div class="arrow">
+                    <img src="assets/images/arrow.svg" alt="" />
+                  </div>
+                </div>
+                <div class="prices__type_open">
+                  <div class="prices__type_line"></div>
+                  <p class="prices__type_description">
+                    Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently
+                  </p>
+                  <p class="prices__type_price-text">
+                    <span class="prices__type_price">$15</span> / per hour
+                  </p>
+                  <button class="prices__type_button">Order</button>
+                </div>
               </div>
               <div class="prices__type">
-                <h3 class="prices__type_title">Standard</h3>
-                <img class="arrow" src="assets/images/arrow.svg" alt="arrow" />
+                <div class="prices__type_close">
+                  <h3 class="prices__type_title">Standart</h3>
+                  <div class="arrow">
+                    <img src="assets/images/arrow.svg" alt="" />
+                  </div>
+                </div>
+                <div class="prices__type_open">
+                  <div class="prices__type_line"></div>
+                  <p class="prices__type_description">
+                    Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently
+                  </p>
+                  <p class="prices__type_price-text">
+                    <span class="prices__type_price">$25</span> / per hour
+                  </p>
+                  <button class="prices__type_button">Order</button>
+                </div>
               </div>
               <div class="prices__type">
-                <h3 class="prices__type_title">Pro care</h3>
-                <img class="arrow" src="assets/images/arrow.svg" alt="arrow" />
+                <div class="prices__type_close">
+                  <h3 class="prices__type_title">Pro care</h3>
+                  <div class="arrow">
+                    <img src="assets/images/arrow.svg" alt="" />
+                  </div>
+                </div>
+                <div class="prices__type_open">
+                  <div class="prices__type_line"></div>
+                  <p class="prices__type_description">
+                    Release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently
+                  </p>
+                  <p class="prices__type_price-text">
+                    <span class="prices__type_price">$35</span> / per hour
+                  </p>
+                  <button class="prices__type_button">Order</button>
+                </div>
               </div>
             </div>
           </div>
@@ -197,13 +255,19 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section id="contact" class="contacts">
         <div class="container contacts__container">
           <img class="contacts__image" src="assets/images/woman.png" alt="" />
           <h2 class="contacts__title">Contact us</h2>
           <div class="contacts__choice">
             <p class="contacts__choice_text">City</p>
-            <img class="arrow" src="assets/images/arrow.svg" alt="arrow" />
+            <div class="arrow">
+              <img
+                class="arrow-image"
+                src="assets/images/arrow.svg"
+                alt="arrow"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -214,6 +278,9 @@
           <p class="footer__content_text">©</p>
           <p class="footer__content_text">2025</p>
           <p class="footer__content_text">github</p>
+          <p class="footer__content_text footer__content_text-disnon">
+            Rolling Scopes School
+          </p>
         </div>
         <ul class="footer__list">
           <div class="footer__links">
@@ -236,7 +303,11 @@
             </li>
             <li class="footer__list_element">
               <a class="footer__link" href="#">
-                <img class="footer__image" src="assets/images/x.svg" alt="x" />
+                <img
+                  class="footer__image"
+                  src="assets/images/twitter.svg"
+                  alt="twitter"
+                />
               </a>
             </li>
             <li class="footer__list_element">
@@ -252,5 +323,7 @@
         </ul>
       </div>
     </footer>
+    <script src="accordion.js"></script>
+    <script src="burger-menu.js"></script>
   </body>
 </html>

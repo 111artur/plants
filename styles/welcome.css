@@ -27,6 +27,10 @@
   color: #717171;
 }
 
+.welcome__description {
+  margin-bottom: 48px;
+}
+
 .welcome__button {
   padding: 14px 27px;
   border-radius: 10px;
@@ -36,4 +40,39 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    padding: 40px 0 70px 0;
+  }
+  .welcome__leafs {
+    width: 280px;
+    height: 255px;
+    order: 1;
+  }
+  .welcome__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .welcome__description {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .welcome {
+    padding: 24px 0 24px 0;
+  }
+  .welcome__leafs {
+    display: none;
+  }
+  .welcome__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .welcome__button {
+    padding: 8px 18px;
+    font-size: 10px;
+  }
 }
