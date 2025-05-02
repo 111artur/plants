@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 650px) {
   .welcome {
     padding: 24px 0 24px 0;
   }
