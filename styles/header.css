@@ -111,4 +111,7 @@
   .burger-menu {
     display: flex;
   }
+  .element-menu:hover {
+    color: #fff;
+  }
 }

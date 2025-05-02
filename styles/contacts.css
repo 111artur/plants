@@ -62,3 +62,23 @@
     margin-bottom: 250px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .contacts {
+    padding-top: 25px;
+  }
+  .contacts__title {
+    font-size: 25px;
+  }
+  .contacts__choice {
+    width: 300px;
+    padding: 5px 20px 5px 20px;
+  }
+  .contacts__image {
+    width: 100px;
+    height: 125px;
+  }
+  .contacts__choice {
+    margin-bottom: 132px;
+  }
+}
