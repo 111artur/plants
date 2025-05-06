@@ -19,7 +19,7 @@
 }
 
 .welcome__title {
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
@@ -36,7 +36,7 @@
   border-radius: 10px;
   border: #e06733 solid 2px;
   background-color: inherit;
-  font-family: Inter, sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

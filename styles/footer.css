@@ -14,7 +14,7 @@
 }
 
 .footer__content_text {
-  font-family: Inter;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;

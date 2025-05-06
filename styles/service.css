@@ -26,6 +26,11 @@
   gap: 38px;
 }
 
+.service__buttons .service__buttons-active {
+  background-color: #e06733;
+  color: #fff;
+}
+
 .service__cards {
   display: flex;
   gap: 116px;
@@ -46,9 +51,13 @@
   height: 350px;
 }
 
+.card-blur {
+  filter: blur(1.5px);
+}
+
 .service__card_title {
   margin-top: 10px;
-  font-family: Inter;
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -58,7 +67,7 @@
 .service__card_description {
   margin-top: 10px;
   margin-bottom: 36px;
-  font-family: Inter;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
