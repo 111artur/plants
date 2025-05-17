@@ -1,10 +1,10 @@
-@import url("/styles/header.css");
-@import url("/styles/welcome.css");
-@import url("/styles/about.css");
-@import url("/styles/service.css");
-@import url("/styles/prices.css");
-@import url("/styles/contacts.css");
-@import url("/styles/footer.css");
+@import url("styles/header.css");
+@import url("styles/welcome.css");
+@import url("styles/about.css");
+@import url("styles/service.css");
+@import url("styles/prices.css");
+@import url("styles/contacts.css");
+@import url("styles/footer.css");
 
 @font-face {
   font-family: "Roboto";
