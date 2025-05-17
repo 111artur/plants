@@ -19,7 +19,6 @@ for (let i = 0; i < buttons.length; i++) {
     if (buttons[i].textContent === "Gardens") {
       for (let j = 0; j < titles.length; j++) {
         if (titles[j].textContent !== "Garden care") {
-          console.log(cards[j]);
           cards[j].classList.toggle("card-blur");
         }
       }

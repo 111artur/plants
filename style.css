@@ -90,8 +90,8 @@ html {
 .container {
   height: 100%;
   width: 85%;
+  max-width: 1220px;
   margin: 0 auto;
-  max-width: 1920px;
 }
 
 .green-text {
